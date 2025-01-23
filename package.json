@@ -1,0 +1,45 @@
+{
+    "name": "@micro-xpress/utils",
+    "version": "1.0.0",
+    "description": "Minimalistic, fast and powerful node.js microservice framework utilities.",
+    "main": "index.js",
+    "scripts": {
+        "audit": "npm audit --audit-level=info --json > audit.log",
+        "audit:fix": "npm audit fix",
+        "outdated": "npm outdated --json > outdated.log",
+        "outdated:fix": "npm update",
+        "lint": "npx eslint .",
+        "lint:fix": "npx eslint --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nvharish/micro-xpress-utils.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "micro-xpress-utils",
+        "microxpress",
+        "micro-xpress",
+        "framework",
+        "node.js",
+        "javascript",
+        "api",
+        "microservice",
+        "utils",
+        "node"
+    ],
+    "author": "N V Harish <nv.harish@outlook.com> (https://nvharish.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nvharish/micro-xpress/issues"
+    },
+    "homepage": "https://github.com/nvharish/micro-xpress#readme",
+    "dependencies": {
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "eslint": "^9.18.0"
+    }
+}
