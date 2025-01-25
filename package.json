@@ -39,13 +39,14 @@
     "author": "N V Harish <nv.harish@outlook.com> (https://nvharish.com)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/nvharish/micro-xpress/issues"
+        "url": "https://github.com/nvharish/micro-xpress-utils/issues"
     },
-    "homepage": "https://github.com/nvharish/micro-xpress#readme",
+    "homepage": "https://github.com/nvharish/micro-xpress-utils#readme",
     "dependencies": {
         "morgan": "^1.10.0"
     },
     "devDependencies": {
-        "eslint": "^9.18.0"
+        "eslint": "^9.19.0",
+        "globals": "^15.14.0"
     }
 }
