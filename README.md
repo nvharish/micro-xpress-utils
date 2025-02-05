@@ -76,7 +76,7 @@ console.log(StatusCode.OK.statusCode, StatusCode.OK.statusMessage);
 
 ## Contributing
 
-We welcome contributions to MicroXpress Utils! If you have a feature request or find a bug, please open an issue or submit a pull request. Follow the [contribution guidelines](CONTRIBUTING.md) for more details.
+We welcome contributions to @micro-xpress/utils! If you have a feature request or find a bug, please open an issue or submit a pull request. Follow the [contribution guidelines](CONTRIBUTING.md) for more details.
 
 ---
 
