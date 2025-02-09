@@ -30,12 +30,13 @@ module.exports = function () {
             return next(err);
         }
 
-        res.status(
-            err.code ?? StatusCode.INTERNAL_SERVER_ERROR.statusCode
-        ).json({
-            status: ResponseStatus.ERROR,
-            error:
-                err.message ?? StatusCode.INTERNAL_SERVER_ERROR.statusMessage,
-        });
+        return res
+            .status(err.code ?? StatusCode.INTERNAL_SERVER_ERROR.statusCode)
+            .json({
+                status: ResponseStatus.ERROR,
+                error:
+                    err.message ??
+                    StatusCode.INTERNAL_SERVER_ERROR.statusMessage,
+            });
     };
 };

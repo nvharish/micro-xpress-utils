@@ -29,6 +29,7 @@
         "http",
         "rest",
         "restful",
+        "graphql",
         "router",
         "app",
         "api",
